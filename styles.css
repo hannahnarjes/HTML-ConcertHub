@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+nav li {
+    list-style-type: none;
+    margin: auto;
+    padding: 1.5em; 
+    display: inline;
+}
+h1 {
+    text-align: center;
+    color: #000000;
+}
+h2 {
+    text-align: center;
+    background-color: lightgray;
+}
+.concert-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.artist, .venue, .location {
+    display: inline-block;
+    margin-right: 10px;
+}
