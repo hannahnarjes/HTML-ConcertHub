@@ -59,17 +59,25 @@ h1 {
     color: #000000;
 }
 h2 {
+    margin-top:10%;
     text-align: center;
     background-color: lightgray;
 }
 .concert-list {
+    margin-left: 10%;
+    margin-top: 30%;
     list-style-type: none;
-    padding: 0;
+}
+.layout {
+    display: flex;
+    padding-bottom: 5%;
+    flex-direction: column;
 }
 .artist, .venue, .location {
     display: inline-block;
-    margin-right: 10px;
+    padding-bottom: .5em;
 }
+/*home page*/
 .intro {
     display: flex;
     flex-direction: column;
@@ -77,6 +85,7 @@ h2 {
     padding-top: 10%;
     width: 30%;
 }
+/*home page*/
 .about {
     display: flex;
     flex-direction: column;
