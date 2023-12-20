@@ -94,26 +94,23 @@ h2 {
     font-size: x-large; 
 }
 @media screen and (max-width: 600px) {
-    .navbar {
-        position: relative;
+    .navbar a {
         text-decoration: none;
         color: #fff;
-        font-size: 8px;
+        font-size: 16px;
         text-transform: uppercase;
         font-weight: 200;
-        margin-left: 40px;
-        display: inline-block;
+        margin-left: 10%;
+        display: block;
     }
     .intro {
         display: block;
-        justify-content: left;
         padding-top: 20%;
-        width: 40%;
+        width: 70%;
         font-size: medium;
     }
     .about {
         display: block;
-        justify-content: left;
         padding-top: 40%;
         font-size: small;
     }
